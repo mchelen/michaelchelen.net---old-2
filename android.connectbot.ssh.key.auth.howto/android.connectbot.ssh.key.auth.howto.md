@@ -6,30 +6,27 @@ SSH provides secure access to a remote server. Both password and public key auth
 
 0. Install Open SSH server
 SSH server must be installed on the remote system. Key authentication is usually enabled by default. To install in Ubuntu:
-<pre class="bash source-bash" style="font-family:monospace;">sudo apt-get install openssh-server
-</pre>
+```
+sudo apt-get install openssh-server
+```
 
 0. Start ConnectBot
-
 [[connectbot.home.png|frame|alt=ConnectBot home screen]]
-
 There are no known hosts yet.
 
 0. Select Manage Pubkeys
-
 [[connectbot.home.menu.png|frame|alt=Home screen Menu]]
-
 Click Menu, then Manage Pubkeys to configure keys.
 
 0. Manage Pubkeys Screen
 [[connectbot.pubkeys.png|frame|alt=Manage the authentication keys]]
 There are no keys set up yet.
 
-<br style="clear:both;"/><br /><h2><li>Generate Pubkey</li></h2><br />
-<a href="http://www.flickr.com/photos/31831582@N08/4955291549/" title="connectbot.pubkeys.menu by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4152/4955291549_abdb5a2316_m.jpg" width="160" height="240" alt="connectbot.pubkeys.menu" style="float:right;margin:1em;"/></a><br /><br />
+0. Generate Pubkey
+<a href="http://www.flickr.com/photos/31831582@N08/4955291549/" title="connectbot.pubkeys.menu by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4152/4955291549_abdb5a2316_m.jpg" width="160" height="240" alt="connectbot.pubkeys.menu" style="float:right;margin:1em;"/></a>
 Click Menu then Generate. We are going to create a new key. This allows us to specifically revoke access if the handset is lost.
 
-<br style="clear:both;"/><br /><h2><li>Generate Pubkey Settings</li></h2><br />
+0. Generate Pubkey Settings
 <a href="http://www.flickr.com/photos/31831582@N08/4955288675/" title="connectbot.pubkeys.generate.settings by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4134/4955288675_f4b3182fd0_m.jpg" width="160" height="240" alt="connectbot.pubkeys.generate.settings" style="float:right;margin:1em;"/></a><br /><br />
 Most of the defaults are fine. We will create a 1024 bit RSA key. For added security, use a password for the key. This will let you to securely use the same password on all servers where your key is authorized.
 
