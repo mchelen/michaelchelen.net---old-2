@@ -62,10 +62,11 @@ Login with a username and password to complete the connection. This is now the t
 
 
 # SSH Directory
-<a href="http://www.flickr.com/photos/31831582@N08/4955883060/" title="connectbot.cd.ssh by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4104/4955883060_989db07e28_m.jpg" width="160" height="240" alt="connectbot.cd.ssh" style="float:right;margin:1em;"/></a>
-The SSH keys and settings are stored in the <pre class="bash source-bash" style="font-family:monospace;">.ssh</pre> directory within the user's home. Go into this directory:
-<pre class="bash source-bash" style="font-family:monospace;">cd .ssh
-</pre>
+[[connectbot.cd.ssh.png|frame|alt=Change directory to .ssh]]
+The SSH keys and settings are stored in the `.ssh` directory within the user's home. Go into this directory:
+```
+cd .ssh
+```
 
 # Add Key
 <a href="http://www.flickr.com/photos/31831582@N08/4955290703/" title="connectbot.authorized.keys.append by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4125/4955290703_43f2b8a9cb_m.jpg" width="160" height="240" alt="connectbot.authorized.keys.append" style="float:right;margin:1em;"/></a>
