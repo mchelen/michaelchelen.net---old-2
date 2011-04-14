@@ -69,13 +69,15 @@ cd .ssh
 ```
 
 # Add Key
-<a href="http://www.flickr.com/photos/31831582@N08/4955290703/" title="connectbot.authorized.keys.append by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4125/4955290703_43f2b8a9cb_m.jpg" width="160" height="240" alt="connectbot.authorized.keys.append" style="float:right;margin:1em;"/></a>
-The list of keys accepted for this user is stored in the <pre class="bash source-bash" style="font-family:monospace;">authorized_keys</pre> file. The new public key should be appended to this file. Use the <pre class="bash source-bash" style="font-family:monospace;">echo</pre> command and paste in the key, surrounded by parentheses. Use <pre class="bash source-bash" style="font-family:monospace;">>></pre> to append the output onto the <pre class="bash source-bash" style="font-family:monospace;">authorized_keys</pre> file.
-<pre class="bash source-bash" style="font-family:monospace;">echo "PASTEKEYHERE" >> authorized_keys
-</pre>
+[[connectbot.authorized.keys.append.png|frame|alt=Add your new key]]
+The list of keys accepted for this user is stored in the `authorized_keys` file. The new public key should be appended to this file. Use the `echo` command and paste in the key, surrounded by parentheses. Use `>>` to append the output onto the `authorized_keys` file.
+```
+echo "PASTEKEYHERE" >> authorized_keys
+```
 For example:
-<pre class="bash source-bash" style="font-family:monospace;">echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDQFSzet/Qu8SLklDQyNbX5k16MwOBVKuaY9bNJhb99BkIRIVbNpr61eHUG3gP6haNC6qreTbpHscq4AQV21gLvCgVmHsTci0QAK44weFyDzVwIBFH9uUN+f/k2NTY9zV8FaBqK9CW8hS2f50EB38mGYvE7/0/S1u7/jtxnKqwAgw== htc_aria" >> authorized_keys
-</pre>
+```
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDQFSzet/Qu8SLklDQyNbX5k16MwOBVKuaY9bNJhb99BkIRIVbNpr61eHUG3gP6haNC6qreTbpHscq4AQV21gLvCgVmHsTci0QAK44weFyDzVwIBFH9uUN+f/k2NTY9zV8FaBqK9CW8hS2f50EB38mGYvE7/0/S1u7/jtxnKqwAgw== htc_aria" >> authorized_keys
+```
 
 # Set Permissions for authorized_keys 
 <a href="http://www.flickr.com/photos/31831582@N08/4955883782/" title="connectbot.authorized.keys.chmod by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4086/4955883782_c6ca21e9e8_m.jpg" width="160" height="240" alt="connectbot.authorized.keys.chmod" style="float:right;margin:1em;"/></a>
