@@ -23,30 +23,29 @@ Click Menu, then Manage Pubkeys to configure keys.
 There are no keys set up yet.
 
 # Generate Pubkey
-
 [[connectbot.pubkey.generate.png|frame|alt=Add a new key]]
 
 Click Menu then Generate. We are going to create a new key. This allows us to specifically revoke access if the handset is lost.
 
 # Generate Pubkey Settings
-<a href="http://www.flickr.com/photos/31831582@N08/4955288675/" title="connectbot.pubkeys.generate.settings by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4134/4955288675_f4b3182fd0_m.jpg" width="160" height="240" alt="connectbot.pubkeys.generate.settings" style="float:right;margin:1em;"/></a>
+[[connectbot.pubkey.generate.settings.png|frame|alt=Settings for new pubkey]]
 
 Most of the defaults are fine. We will create a 1024 bit RSA key. For added security, use a password for the key. This will let you to securely use the same password on all servers where your key is authorized.
 
 # Example Settings
-<a href="http://www.flickr.com/photos/31831582@N08/4955884510/" title="connectbot.pubkeys.generate.settings.example by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4154/4955884510_8e6b6765fd_m.jpg" width="160" height="240" alt="connectbot.pubkeys.generate.settings.example" style="float:right;margin:1em;"/></a>
+[[connectbot.pubkey.generate.settings.example.png|frame|alt=Settings for new pubkey]]
 You can call your key anything you like. I have named mine after the device, htc_aria. Enable "Load key at start" to have the key automatically loaded.
 
 # Collect Entropy 
-<a href="http://www.flickr.com/photos/31831582@N08/4955881634/" title="connectbot.pubkeys.generate.entropy by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4124/4955881634_71a231d105_m.jpg" width="160" height="240" alt="connectbot.pubkeys.generate.entropy" style="float:right;margin:1em;"/></a>
+[[connectbot.pubkey.generate.entropy.png|frame|alt=Entropy collection]]
 Random numbers are used to generate the key. Move your finger around the screen until enough is generated.
 
 # New Pubkey Created
-<a href="http://www.flickr.com/photos/31831582@N08/4955884774/" title="connectbot.pubkeys.example by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4153/4955884774_76dd94172a_m.jpg" width="160" height="240" alt="connectbot.pubkeys.example" style="float:right;margin:1em;"/></a>
+[[connectbot.pubkey.example.png|frame|alt=New pubkey listed]]
 The new key has been created. It is unlocked and will be used by ConnectBot automatically when connecting to a server.
 
 # Copy Pubkey
-<a href="http://www.flickr.com/photos/31831582@N08/4955289255/" title="connectbot.pubkeys.details by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4137/4955289255_ca0d92a86f_m.jpg" width="160" height="240" alt="connectbot.pubkeys.details" style="float:right;margin:1em;"/></a>
+[[connectbot.pubkey.details.png"|frame|alt=Copy the public key]]
 Do a long press on the key to bring up a menu. We want to copy the public portion on the remote server. Click "Copy public key"
 
 # Connect to Server
