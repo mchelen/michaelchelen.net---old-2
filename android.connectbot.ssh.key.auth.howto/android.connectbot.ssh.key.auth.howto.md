@@ -11,14 +11,15 @@ SSH server must be installed on the remote system. Key authentication is usually
 </pre>
 
 <h2><li>Start ConnectBot</li></h2>
-<a href="http://www.flickr.com/photos/31831582@N08/4955288167/" title="connectbot by mchelen, on Flickr">
-    <img src="http://farm5.static.flickr.com/4149/4955288167_e94d69e69f_m.jpg" width="160" height="240" alt="connectbot" style="float:right;margin:1em;"/>
-</a>
 
+[[connectbot.home.png|frame|alt=ConnectBot home screen]]
 
 There are no known hosts yet.
-<br style="clear:both;"/><br /><h2><li>Manage Pubkeys</li></h2><br />
-<a href="http://www.flickr.com/photos/31831582@N08/4955291277/" title="connectbot.menu by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4083/4955291277_2ce0fc56b0_m.jpg" width="160" height="240" alt="connectbot.menu" style="float:right;margin:1em;"/></a><br /><br />
+
+<h2><li>Manage Pubkeys</li></h2>
+
+[[connectbot.pubkeys.png|frame|alt=Manage the authentication keys]]
+
 Click Menu, then Manage Pubkeys to configure keys.
 
 <br style="clear:both;"/><br /><h2><li>Manage Pubkeys Screen</li></h2><br />
