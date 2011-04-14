@@ -16,14 +16,14 @@ SSH server must be installed on the remote system. Key authentication is usually
 
 There are no known hosts yet.
 
-<h2><li>Manage Pubkeys</li></h2>
+<h2><li>Select Manage Pubkeys</li></h2>
 
-[[connectbot.pubkeys.png|frame|alt=Manage the authentication keys]]
+[[connectbot.home.menu.png|frame|alt=Home screen Menu]]
 
 Click Menu, then Manage Pubkeys to configure keys.
 
-<br style="clear:both;"/><br /><h2><li>Manage Pubkeys Screen</li></h2><br />
-<a href="http://www.flickr.com/photos/31831582@N08/4955288431/" title="connectbot.pubkeys by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4088/4955288431_3f808ff18f_m.jpg" width="160" height="240" alt="connectbot.pubkeys" style="float:right;margin:1em;"/></a><br /><br />
+<h2><li>Manage Pubkeys Screen</li></h2>
+[[connectbot.pubkeys.png|frame|alt=Manage the authentication keys]]
 There are no keys set up yet.
 
 <br style="clear:both;"/><br /><h2><li>Generate Pubkey</li></h2><br />
