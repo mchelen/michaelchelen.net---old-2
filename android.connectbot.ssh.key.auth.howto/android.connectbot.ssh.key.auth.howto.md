@@ -79,8 +79,8 @@ For example:
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDQFSzet/Qu8SLklDQyNbX5k16MwOBVKuaY9bNJhb99BkIRIVbNpr61eHUG3gP6haNC6qreTbpHscq4AQV21gLvCgVmHsTci0QAK44weFyDzVwIBFH9uUN+f/k2NTY9zV8FaBqK9CW8hS2f50EB38mGYvE7/0/S1u7/jtxnKqwAgw== htc_aria" >> authorized_keys
 ```
 
-# Set Permissions for authorized_keys 
-<a href="http://www.flickr.com/photos/31831582@N08/4955883782/" title="connectbot.authorized.keys.chmod by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4086/4955883782_c6ca21e9e8_m.jpg" width="160" height="240" alt="connectbot.authorized.keys.chmod" style="float:right;margin:1em;"/></a>
+# Set Permissions for authorized_keys
+[[connectbot.authorized.keys.chmod.png|frame|alt=Change permissions for authorized_keys]]
 The authorized_keys file must only be writeable the owner. Set the permissions to 644 which means rw-r--r-- if it is not set this way already.
 <pre class="bash source-bash" style="font-family:monospace;">chmod 644 authorized_keys
 </pre>
