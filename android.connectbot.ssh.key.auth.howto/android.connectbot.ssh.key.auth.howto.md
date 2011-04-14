@@ -45,15 +45,15 @@ Random numbers are used to generate the key. Move your finger around the screen 
 The new key has been created. It is unlocked and will be used by ConnectBot automatically when connecting to a server.
 
 # Copy Pubkey
-[[connectbot.pubkey.details.png"|frame|alt=Copy the public key]]
+[[connectbot.pubkey.details.png|frame|alt=Copy the public key]]
 Do a long press on the key to bring up a menu. We want to copy the public portion on the remote server. Click "Copy public key"
 
 # Connect to Server
-<a href="http://www.flickr.com/photos/31831582@N08/5024695974/" title="CAP2010092520341 by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4086/5024695974_75d625d2ed_m.jpg" width="160" height="240" alt="CAP2010092520341" style="float:right;margin:1em;"/></a>
+[[connectbot.connect.to.server.png|frame|alt=Enter server information]]
 Go back to the ConnectBot home screen and connect to your SSH server as normal.
 
 # First Connection
-<a href="http://www.flickr.com/photos/31831582@N08/4955885070/" title="connectbot.first.connect by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4147/4955885070_b549291ca9_m.jpg" width="160" height="240" alt="connectbot.first.connect" style="float:right;margin:1em;"/></a>
+[[connectbot.first.connect.png|frame|alt=On first connection the host is unknown ]]
 Choose "Yes" to accept the server's key if this is the first time connecting to the server.
 
 # Connection Established
