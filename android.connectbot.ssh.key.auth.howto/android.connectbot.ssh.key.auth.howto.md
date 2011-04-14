@@ -82,17 +82,16 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDQFSzet/Qu8SLklDQyNbX5k16MwOBVKuaY9b
 # Set Permissions for authorized_keys
 [[connectbot.authorized.keys.chmod.png|frame|alt=Change permissions for authorized_keys]]
 The authorized_keys file must only be writeable the owner. Set the permissions to 644 which means rw-r--r-- if it is not set this way already.
-<pre class="bash source-bash" style="font-family:monospace;">chmod 644 authorized_keys
-</pre>
+```
+chmod 644 authorized_keys
+```
 
 # Disconnect
-<a href="http://www.flickr.com/photos/31831582@N08/5025271404/" title="CAP2010092600511 by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4104/5025271404_7acdb02738_m.jpg" width="160" height="240" alt="CAP2010092600511" style="float:right;margin:1em;"/></a>
+[[connectbot.disconnect.png|frame|alt=After disconnect]]
 Disconnect from the server. It will be now be listed on the screen.
 
-
-
 # Test Connection
-<a href="http://www.flickr.com/photos/31831582@N08/5025263614/" title="CAP2010090616311 by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4130/5025263614_40d7d8b940_m.jpg" width="160" height="240" alt="CAP2010090616311" style="float:right;margin:1em;"/></a>
+[[connectbot.pubkey.test.png|frame|alt=Test pubkey connection]]
 Connect to the server again. While logging in it will say that public key authentication is being attempted:
 ```
 Attempting "publickey" authentication with any in-memory public keys
