@@ -23,7 +23,9 @@ Click Menu, then Manage Pubkeys to configure keys.
 There are no keys set up yet.
 
 # Generate Pubkey
-<a href="http://www.flickr.com/photos/31831582@N08/4955291549/" title="connectbot.pubkeys.menu by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4152/4955291549_abdb5a2316_m.jpg" width="160" height="240" alt="connectbot.pubkeys.menu" style="float:right;margin:1em;"/></a>
+
+[[connectbot.pubkey.generate.png|frame|alt=Add a new key]]
+
 Click Menu then Generate. We are going to create a new key. This allows us to specifically revoke access if the handset is lost.
 
 # Generate Pubkey Settings
@@ -96,7 +98,7 @@ If the key is working, no username or password will be required to complete logi
 
 
 # Optional: Disable Key
-If the device is lost or access should to be disabled at any time, remove the key from the <pre class="bash source-bash" style="font-family:monospace;">authorized_keys</pre> file. Use any text editor, or sed, to find the appropriate line. With a key named htc_aria for example:
+If the device is lost or access should to be disabled at any time, remove the key from the `authorized_keys` file. Use any text editor, or sed, to find the appropriate line. With a key named htc_aria for example:
 ```
 cd ~/.ssh
 sed '/htc_aria$/d' authorized_keys | tee authorized_keys
