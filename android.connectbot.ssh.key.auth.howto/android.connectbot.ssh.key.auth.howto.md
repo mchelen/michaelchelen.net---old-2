@@ -53,13 +53,15 @@ Do a long press on the key to bring up a menu. We want to copy the public portio
 Go back to the ConnectBot home screen and connect to your SSH server as normal.
 
 # First Connection
-[[connectbot.first.connect.png|frame|alt=On first connection the host is unknown ]]
+[[connectbot.first.connect.png|frame|alt=On first connection the host is unknown]]
 Choose "Yes" to accept the server's key if this is the first time connecting to the server.
 
 # Connection Established
-<a href="http://www.flickr.com/photos/31831582@N08/4955882494/" title="connectbot.connected by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4145/4955882494_ca640df7d1_m.jpg" width="160" height="240" alt="connectbot.connected" style="float:right;margin:1em;"/></a>
+[[connectbot.connected.png|frame|alt=Successful connection]]
 Login with a username and password to complete the connection. This is now the terminal of the remote server.
-SSH Directory
+
+
+# SSH Directory
 <a href="http://www.flickr.com/photos/31831582@N08/4955883060/" title="connectbot.cd.ssh by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4104/4955883060_989db07e28_m.jpg" width="160" height="240" alt="connectbot.cd.ssh" style="float:right;margin:1em;"/></a>
 The SSH keys and settings are stored in the <pre class="bash source-bash" style="font-family:monospace;">.ssh</pre> directory within the user's home. Go into this directory:
 <pre class="bash source-bash" style="font-family:monospace;">cd .ssh
