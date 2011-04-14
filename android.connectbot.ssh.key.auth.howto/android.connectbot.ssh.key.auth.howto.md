@@ -1,20 +1,21 @@
-[[connectbot.htc.aria.300px.png|width=300px|frame|alt=ConnectBot running on HTC Aria from ATT]]
+[[connectbot.htc.aria.300px.png|frame|alt=ConnectBot running on HTC Aria from ATT]]
 
 
 SSH provides secure access to a remote server. Both password and public key authentication are allowed. ConnectBot is an open source SSH client for Android. A key can be created in ConnectBot for use with the server. The key can be disabled at any time. This method can be performed entirely from your Android handset if you currently have password access to an SSH server. ConnectBot supports shell login and port forwarding, and file transfer is planned. Tested with ConnectBot 1.7.0, Android 2.2, and Ubuntu 10.10 Beta.
 
 
-<br style="clear:both;"/><br />
-
-
 <ol>
-<br style="clear:both;"/><br /><h2><li>Install Open SSH server</li></h2><br />
+<h2><li>Install Open SSH server</li></h2>
 SSH server must be installed on the remote system. Key authentication is usually enabled by default. To install in Ubuntu:
 <pre class="bash source-bash" style="font-family:monospace;">sudo apt-get install openssh-server
 </pre>
 
-<br style="clear:both;"/><br /><h2><li>Start ConnectBot</li></h2><br />
-<a href="http://www.flickr.com/photos/31831582@N08/4955288167/" title="connectbot by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4149/4955288167_e94d69e69f_m.jpg" width="160" height="240" alt="connectbot" style="float:right;margin:1em;"/></a><br /><br />
+<h2><li>Start ConnectBot</li></h2>
+<a href="http://www.flickr.com/photos/31831582@N08/4955288167/" title="connectbot by mchelen, on Flickr">
+    <img src="http://farm5.static.flickr.com/4149/4955288167_e94d69e69f_m.jpg" width="160" height="240" alt="connectbot" style="float:right;margin:1em;"/>
+</a>
+
+
 There are no known hosts yet.
 <br style="clear:both;"/><br /><h2><li>Manage Pubkeys</li></h2><br />
 <a href="http://www.flickr.com/photos/31831582@N08/4955291277/" title="connectbot.menu by mchelen, on Flickr"><img src="http://farm5.static.flickr.com/4083/4955291277_2ce0fc56b0_m.jpg" width="160" height="240" alt="connectbot.menu" style="float:right;margin:1em;"/></a><br /><br />
