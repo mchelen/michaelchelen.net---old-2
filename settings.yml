@@ -1,16 +1,10 @@
-title: Test
-source_url: http://github.com/benbjohnson/smeagol
+title: michaelchelen.net
+source_url: https://github.com/mchelen/michaelchelennet/wiki
 ribbon: red right
-tracking_id: UA-1234567-8
+tracking_id: UA-2203206-13
 
 menu:
   - title: Home
     href: /
   - title: Command Line
     href: /Command-Line-Interface
-  - title: Settings
-    href: /Settings
-  - title: Templates
-    href: /Templates
-  - title: Misc
-    href: /Miscellaneous
