@@ -1,0 +1,17 @@
+Extra notes:
+
+To convert images from Gollum to vanilla Markdown using Github as host:
+
+
+Replace:
+[[
+
+With:
+![](http://github.com/mchelen/michaelchelennet/wiki/android.connectbot.ssh.key.auth.howto/
+
+
+Replace:
+|frame]]
+
+With:
+)
