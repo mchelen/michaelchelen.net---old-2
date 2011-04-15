@@ -35,31 +35,31 @@ Click Menu then Generate. We are going to create a new key. This allows us to sp
 The new pubkey settings. Most of the defaults are fine. We will create a 1024 bit RSA key. For added security, use a password for the key. This will let you to securely use the same password on all servers where your key is authorized.
 
 # Example Settings
-[[connectbot.pubkey.generate.settings.example.png|frame]]
+[[connectbot.pubkey.generate.settings.example.png|frame]]  
 You can call your key anything you like. I have named mine after the device, htc_aria. Enable "Load key at start" to have the key automatically loaded.
 
-# Collect Entropy 
-[[connectbot.pubkey.generate.entropy.png|frame]]
+# Collect Entropy
+[[connectbot.pubkey.generate.entropy.png|frame]]  
 Random numbers are used to generate the key. Move your finger around the screen until enough is generated.
 
 # New Pubkey Created
-[[connectbot.pubkey.example.png|frame]]
+[[connectbot.pubkey.example.png|frame]]  
 The new key has been created. It is unlocked and will be used by ConnectBot automatically when connecting to a server.
 
 # Copy Pubkey
-[[connectbot.pubkey.details.png|frame]]
+[[connectbot.pubkey.details.png|frame]]  
 Do a long press on the key to bring up a menu. We want to copy the public portion on the remote server. Click "Copy public key"
 
 # Connect to Server
-[[connectbot.connect.to.server.png|frame]]
+[[connectbot.connect.to.server.png|frame]]  
 Go back to the ConnectBot home screen and enter your server information to connect to your SSH server.
 
 # First Connection
-[[connectbot.first.connect.png|frame]]
+[[connectbot.first.connect.png|frame]]  
 Choose "Yes" to accept the server's key if this is the first time connecting to the server.
 
 # Connection Established
-[[connectbot.connected.png|frame]]
+[[connectbot.connected.png|frame]]  
 Login with a username and password to complete the connection. This is now the terminal of the remote server.
 
 
