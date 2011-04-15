@@ -1,14 +1,7 @@
-<table>
-<tr>
-<td>
 [[connectbot.htc.aria.300px.png|align=center|frame]]
-</td>
-<td>
-SSH provides secure access to a remote server. Both password and public key authentication are allowed. ConnectBot is an open source SSH client for Android. A key can be created in ConnectBot for use with the server. The key can be disabled at any time. This method can be performed entirely from your Android handset if you currently have password access to an SSH server. ConnectBot supports shell login and port forwarding, and file transfer is planned. Tested with ConnectBot 1.7.0, Android 2.2, and Ubuntu 10.10 Beta.
-</td>
-</tr>
-</table>
 
+
+SSH provides secure access to a remote server. Both password and public key authentication are allowed. ConnectBot is an open source SSH client for Android. A key can be created in ConnectBot for use with the server. The key can be disabled at any time. This method can be performed entirely from your Android handset if you currently have password access to an SSH server. ConnectBot supports shell login and port forwarding, and file transfer is planned. Tested with ConnectBot 1.7.0, Android 2.2, and Ubuntu 10.10 Beta.
 
 # Install Open SSH server
 SSH server must be installed on the remote system. Key authentication is usually enabled by default. To install in Ubuntu:
@@ -18,14 +11,17 @@ sudo apt-get install openssh-server
 
 # Start ConnectBot
 [[connectbot.home.png|align=center|frame|alt=ConnectBot home screen]]
+
 There are no known hosts yet.
 
 # Select Manage Pubkeys
 [[connectbot.home.menu.png|align=center|frame|alt=Home screen Menu]]
+
 Click Menu, then Manage Pubkeys to configure keys.
 
 # Manage Pubkeys Screen
 [[connectbot.pubkeys.png|align=center|frame|alt=Manage the authentication keys]]
+
 There are no keys set up yet.
 
 # Generate Pubkey
