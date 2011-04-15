@@ -1,4 +1,4 @@
-[[connectbot.htc.aria.300px.png|align=center|alt=ConnectBot running on HTC Aria from ATT]]
+[[connectbot.htc.aria.300px.png|align=center|frame|alt=ConnectBot running on HTC Aria from ATT]]
   
   
 
