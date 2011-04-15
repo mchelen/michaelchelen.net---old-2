@@ -11,7 +11,7 @@ sudo apt-get install openssh-server
 ```
 
 # Start ConnectBot
-[[connectbot.home.png|frame|alt=ConnectBot home screen]]
+[[connectbot.home.png|frame|float|alt=ConnectBot home screen]]
 There are no known hosts yet.
 
 # Select Manage Pubkeys
