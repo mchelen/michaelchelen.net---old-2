@@ -1,0 +1,16 @@
+title: Test
+source_url: http://github.com/benbjohnson/smeagol
+ribbon: red right
+tracking_id: UA-1234567-8
+
+menu:
+  - title: Home
+    href: /
+  - title: Command Line
+    href: /Command-Line-Interface
+  - title: Settings
+    href: /Settings
+  - title: Templates
+    href: /Templates
+  - title: Misc
+    href: /Miscellaneous
