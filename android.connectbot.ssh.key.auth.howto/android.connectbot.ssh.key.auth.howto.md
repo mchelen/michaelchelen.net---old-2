@@ -1,4 +1,4 @@
-<table>
+<table style="border-width:0px;">
     <tr>
         <td>
 [[connectbot.htc.aria.300px.png|align=center|frame|alt=ConnectBot running on HTC Aria from ATT]]
