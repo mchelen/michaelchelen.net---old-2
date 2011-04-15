@@ -15,11 +15,11 @@ sudo apt-get install openssh-server
 There are no known hosts yet.
 
 # Select Manage Pubkeys
-[[connectbot.home.menu.png|frame|alt=Home screen Menu]]
+[[connectbot.home.menu.png|frame|float|alt=Home screen Menu]]
 Click Menu, then Manage Pubkeys to configure keys.
 
 # Manage Pubkeys Screen
-[[connectbot.pubkeys.png|frame|alt=Manage the authentication keys]]
+[[connectbot.pubkeys.png|frame|float|alt=Manage the authentication keys]]
 There are no keys set up yet.
 
 # Generate Pubkey
