@@ -10,68 +10,68 @@ sudo apt-get install openssh-server
 ```
 
 # Start ConnectBot
-[[connectbot.home.png|align=center|frame|alt=ConnectBot home screen]]
+[[connectbot.home.png|frame]]
 
-There are no known hosts yet.
+ConnectBot home screen. There are no known hosts yet.
 
 # Select Manage Pubkeys
-[[connectbot.home.menu.png|align=center|frame|alt=Home screen Menu]]
+[[connectbot.home.menu.png|frame]]
 
 Click Menu, then Manage Pubkeys to configure keys.
 
 # Manage Pubkeys Screen
-[[connectbot.pubkeys.png|align=center|frame|alt=Manage the authentication keys]]
+[[connectbot.pubkeys.png|frame]]
 
 There are no keys set up yet.
 
 # Generate Pubkey
-[[connectbot.pubkey.generate.png|frame|alt=Add a new key]]
+[[connectbot.pubkey.generate.png|frame]]
 
 Click Menu then Generate. We are going to create a new key. This allows us to specifically revoke access if the handset is lost.
 
 # Generate Pubkey Settings
-[[connectbot.pubkey.generate.settings.png|frame|alt=Settings for new pubkey]]
+[[connectbot.pubkey.generate.settings.png|frame]]
 
-Most of the defaults are fine. We will create a 1024 bit RSA key. For added security, use a password for the key. This will let you to securely use the same password on all servers where your key is authorized.
+The new pubkey settings. Most of the defaults are fine. We will create a 1024 bit RSA key. For added security, use a password for the key. This will let you to securely use the same password on all servers where your key is authorized.
 
 # Example Settings
-[[connectbot.pubkey.generate.settings.example.png|frame|alt=Settings for new pubkey]]
+[[connectbot.pubkey.generate.settings.example.png|frame]]
 You can call your key anything you like. I have named mine after the device, htc_aria. Enable "Load key at start" to have the key automatically loaded.
 
 # Collect Entropy 
-[[connectbot.pubkey.generate.entropy.png|frame|alt=Entropy collection]]
+[[connectbot.pubkey.generate.entropy.png|frame]]
 Random numbers are used to generate the key. Move your finger around the screen until enough is generated.
 
 # New Pubkey Created
-[[connectbot.pubkey.example.png|frame|alt=New pubkey listed]]
+[[connectbot.pubkey.example.png|frame]]
 The new key has been created. It is unlocked and will be used by ConnectBot automatically when connecting to a server.
 
 # Copy Pubkey
-[[connectbot.pubkey.details.png|frame|alt=Copy the public key]]
+[[connectbot.pubkey.details.png|frame]]
 Do a long press on the key to bring up a menu. We want to copy the public portion on the remote server. Click "Copy public key"
 
 # Connect to Server
-[[connectbot.connect.to.server.png|frame|alt=Enter server information]]
-Go back to the ConnectBot home screen and connect to your SSH server as normal.
+[[connectbot.connect.to.server.png|frame]]
+Go back to the ConnectBot home screen and enter your server information to connect to your SSH server.
 
 # First Connection
-[[connectbot.first.connect.png|frame|alt=On first connection the host is unknown]]
+[[connectbot.first.connect.png|frame]]
 Choose "Yes" to accept the server's key if this is the first time connecting to the server.
 
 # Connection Established
-[[connectbot.connected.png|frame|alt=Successful connection]]
+[[connectbot.connected.png|frame]]
 Login with a username and password to complete the connection. This is now the terminal of the remote server.
 
 
 # SSH Directory
-[[connectbot.cd.ssh.png|frame|alt=Change directory to .ssh]]
+[[connectbot.cd.ssh.png|frame]]
 The SSH keys and settings are stored in the `.ssh` directory within the user's home. Go into this directory:
 ```
 cd .ssh
 ```
 
 # Add Key
-[[connectbot.authorized.keys.append.png|frame|alt=Add your new key]]
+[[connectbot.authorized.keys.append.png|frame]]
 The list of keys accepted for this user is stored in the `authorized_keys` file. The new public key should be appended to this file. Use the `echo` command and paste in the key, surrounded by parentheses. Use `>>` to append the output onto the `authorized_keys` file.
 ```
 echo "PASTEKEYHERE" >> authorized_keys
@@ -82,18 +82,18 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDQFSzet/Qu8SLklDQyNbX5k16MwOBVKuaY9b
 ```
 
 # Set Permissions for authorized_keys
-[[connectbot.authorized.keys.chmod.png|frame|alt=Change permissions for authorized_keys]]
-The authorized_keys file must only be writeable the owner. Set the permissions to 644 which means rw-r--r-- if it is not set this way already.
+[[connectbot.authorized.keys.chmod.png|frame]]
+The authorized_keys file must be writeable only by the owner. Set the permissions to 644 which means rw-r--r-- if it is not set this way already.
 ```
 chmod 644 authorized_keys
 ```
 
 # Disconnect
-[[connectbot.disconnect.png|frame|alt=After disconnect]]
+[[connectbot.disconnect.png|frame]]
 Disconnect from the server. It will be now be listed on the screen.
 
 # Test Connection
-[[connectbot.pubkey.test.png|frame|alt=Test pubkey connection]]
+[[connectbot.pubkey.test.png|frame]]
 Connect to the server again. While logging in it will say that public key authentication is being attempted:
 ```
 Attempting "publickey" authentication with any in-memory public keys
