@@ -1,4 +1,4 @@
-[[connectbot.htc.aria.300px.png|frame|alt=Test test]]
+[[connectbot.htc.aria.300px.png|frame|alt=ConnectBot running on HTC Aria from AT&T.]]
 
 
 ConnectBot is an open source SSH client for Android. SSH provides secure access to a remote server. Both password and public key authentication are allowed.  A key can be created in ConnectBot for use with the server. The key can be disabled at any time. This method can be performed entirely from your Android handset if you currently have password access to an SSH server. ConnectBot supports shell login and port forwarding, and file transfer is planned. Tested with ConnectBot 1.7.0, Android 2.2, and Ubuntu 10.10 Beta.
@@ -62,30 +62,22 @@ Choose "Yes" to accept the server's key if this is the first time connecting to 
 [[connectbot.connected.png|frame]]  
 Login with a username and password to complete the connection. This is now the terminal of the remote server.
 
-
-# SSH Directory
-[[connectbot.cd.ssh.png|frame]]
-The SSH keys and settings are stored in the `.ssh` directory within the user's home. Go into this directory:
-```
-cd .ssh
-```
-
 # Add Key
 [[connectbot.authorized.keys.append.png|frame]]
-The list of keys accepted for this user is stored in the `authorized_keys` file. The new public key should be appended to this file. Use the `echo` command and paste in the key, surrounded by parentheses. Use `>>` to append the output onto the `authorized_keys` file.
+The list of keys accepted for this user is stored in the `authorized_keys` file. This file is located in the `.ssh` directory within the user's home directory. Use the `echo` command and paste in the key, surrounded by parentheses. The `>>` will append your public key onto the `.ssh/authorized_keys` file.
 ```
-echo "PASTEKEYHERE" >> authorized_keys
+echo "PASTEKEYHERE" >> .ssh/authorized_keys
 ```
 For example:
 ```
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDQFSzet/Qu8SLklDQyNbX5k16MwOBVKuaY9bNJhb99BkIRIVbNpr61eHUG3gP6haNC6qreTbpHscq4AQV21gLvCgVmHsTci0QAK44weFyDzVwIBFH9uUN+f/k2NTY9zV8FaBqK9CW8hS2f50EB38mGYvE7/0/S1u7/jtxnKqwAgw== htc_aria" >> authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDQFSzet/Qu8SLklDQyNbX5k16MwOBVKuaY9bNJhb99BkIRIVbNpr61eHUG3gP6haNC6qreTbpHscq4AQV21gLvCgVmHsTci0QAK44weFyDzVwIBFH9uUN+f/k2NTY9zV8FaBqK9CW8hS2f50EB38mGYvE7/0/S1u7/jtxnKqwAgw== htc_aria" >> .ssh/authorized_keys
 ```
 
 # Set Permissions for authorized_keys
 [[connectbot.authorized.keys.chmod.png|frame]]
-The authorized_keys file must be writeable only by the owner. Set the permissions to 644 which means rw-r--r-- if it is not set this way already.
+The `.ssh/authorized_keys` file must be writeable only by the owner. Set the permissions to `644` which means `rw-r--r--` if it is not already that way.
 ```
-chmod 644 authorized_keys
+chmod 644 .ssh/authorized_keys
 ```
 
 # Disconnect
