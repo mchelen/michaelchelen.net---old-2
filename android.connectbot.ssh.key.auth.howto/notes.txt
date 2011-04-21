@@ -10,8 +10,20 @@ With:
 ![](http://github.com/mchelen/michaelchelennet/wiki/android.connectbot.ssh.key.auth.howto/
 
 
+
+sed -i "s/[[/![](http:\/\/github.com\/mchelen\/michaelchelennet\/wiki\/android.connectbot.ssh.key.auth.howto\//g" android.connectbot.ssh.key.auth.howto.md
+
+
 Replace:
 |frame]]
 
 With:
 )
+
+
+sed -i "s/|frame]]/)/g" android.connectbot.ssh.key.auth.howto.md
+
+
+
+
+
