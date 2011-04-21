@@ -12,8 +12,7 @@ With:
 
 
 
-sed -i "s/\[\[/\!\[\](http:\/\/github.com\/mchelen\/michaelchelennet\/wiki\/an
-droid.connectbot.ssh.key.auth.howto\//g" android.connectbot.ssh.key.auth.howto.md
+sed -i "s/\[\[/\!\[\](http:\/\/github.com\/mchelen\/michaelchelennet\/wiki\/android.connectbot.ssh.key.auth.howto\//g" android.connectbot.ssh.key.auth.howto.md
 
 
 
