@@ -48,7 +48,7 @@ sudo gem install rdiscount
 GitHub wikis can be branched and merged
  not supported by web interface
 
-
+# Install Smeagol
 Smeagol
 https://github.com/benbjohnson/smeagol
 ```
@@ -57,7 +57,7 @@ sudo gem install smeagol
 Optional sudo
 
 
-Sources:
+## Sources
 
 http://johanharjono.com/archives/791
 https://github.com/github/gollum
