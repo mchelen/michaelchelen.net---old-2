@@ -61,6 +61,7 @@ Optional sudo
 ### Hello World
 Foo
 - Bar1
+- Bar2
 
 ```html
 <html>
@@ -68,7 +69,8 @@ Foo
     <h3>Hello World</h1>
     Foo
     <li>
-      <ul>Bar</ul>
+      <ul>Bar1</ul>
+      <ul>Bar2</ul>
     </li>
   </body>
 </html>
@@ -77,7 +79,8 @@ Foo
 ```md
 ### Hello World
 Foo
-- Bar
+- Bar1
+- Bar2
 ```
 
 
