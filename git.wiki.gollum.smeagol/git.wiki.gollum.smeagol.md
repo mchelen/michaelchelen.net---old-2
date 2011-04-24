@@ -45,6 +45,14 @@ Markdown support
 sudo gem install rdiscount
 ```
 
+Syntax highlighting
+```
+sudo apt-get install python-pygments
+```
+
+
+
+
 GitHub wikis can be branched and merged
  - Not supported by web interface
 
@@ -74,7 +82,7 @@ Markdown is easier to read and write than HTML
 </html>
 ```
 
-```md
+```markdown
 ### Hello World
 - Bar1
 ```
