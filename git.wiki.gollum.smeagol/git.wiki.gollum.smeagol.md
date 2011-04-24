@@ -1,7 +1,7 @@
 # Git Wiki Gollum Smeagol
 
 
-Clone Wiki repository
+## Clone Wiki repository
 
 
 ```
@@ -12,6 +12,9 @@ git clone git@github.com:mchelen/michaelchelennet.wiki.git
 ```
 git clone git://github.com/mchelen/michaelchelennet.wiki.git
 ```
+
+## Install Gollum
+
 
 ```
 gem install gollum
