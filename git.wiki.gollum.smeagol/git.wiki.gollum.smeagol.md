@@ -59,17 +59,15 @@ Optional sudo
 ## Why Markdown?
 
 ### Hello World
-- Foo
-- Bar
-
-
+Foo
+- Bar1
 
 ```html
 <html>
   <body>
     <h3>Hello World</h1>
+    Foo
     <li>
-      <ul>Foo</ul>
       <ul>Bar</ul>
     </li>
   </body>
@@ -78,7 +76,7 @@ Optional sudo
 
 ```md
 ### Hello World
-- Foo
+Foo
 - Bar
 ```
 
