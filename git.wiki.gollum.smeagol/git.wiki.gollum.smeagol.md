@@ -1,5 +1,5 @@
 # Git Wiki Gollum Smeagol
-
+Git is a revision control system. Gollum is a webserver to work with the repository locally. Smeagol is webserver to publically display the repository pages.
 
 ## Clone Wiki repository
 
@@ -57,6 +57,8 @@ sudo gem install smeagol
 Optional sudo
 
 ## Why Markdown?
+Markdown is easier to read and write than HTML
+
 
 ### Hello World
 - Bar1
