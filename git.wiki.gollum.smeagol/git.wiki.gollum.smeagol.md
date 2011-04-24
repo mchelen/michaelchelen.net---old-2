@@ -57,12 +57,29 @@ sudo gem install smeagol
 Optional sudo
 
 ## Why Markdown?
+
+# Hello World
+- Foo
+- Bar
+
+
+
 ```html
 <html>
   <body>
-    Foo
+    <h1>Hello World</h1>
+    <li>
+      <ul>Foo</ul>
+      <ul>Bar</ul>
+    </li>
   </body>
 </html>
+```
+
+```md
+# Hello World
+- Foo
+- Bar
 ```
 
 
