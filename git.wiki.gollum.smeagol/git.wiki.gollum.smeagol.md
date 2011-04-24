@@ -50,10 +50,14 @@ Syntax highlighting
 sudo apt-get install python-pygments
 ```
 
+# Update your PATH
+echo "export PATH=$PATH:/var/lib/gems/1.8/bin" >> ~/.bashrc
+
+# Load your updated .bashrc
+source ~/.bashrc
 
 
-
-GitHub wikis can be branched and merged
+# GitHub wikis can be branched and merged
  - Not supported by web interface
 
 # Install Smeagol
@@ -93,3 +97,4 @@ Markdown is easier to read and write than HTML
 - http://johanharjono.com/archives/791
 - https://github.com/github/gollum
 - http://github.github.com/github-flavored-markdown/
+- https://github.com/sononum/gollum/wiki/Installation-on-Ubuntu
