@@ -59,15 +59,15 @@ Optional sudo
 ## Why Markdown?
 ```html
 <html>
-<body>
-Foo
-</body>
+  <body>
+    Foo
+  </body>
 </html>
 ```
 
 
 ## Sources
 
-http://johanharjono.com/archives/791
-https://github.com/github/gollum
-http://github.github.com/github-flavored-markdown/
+- http://johanharjono.com/archives/791
+- https://github.com/github/gollum
+- http://github.github.com/github-flavored-markdown/
