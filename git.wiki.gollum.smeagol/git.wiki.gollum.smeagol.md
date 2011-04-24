@@ -46,6 +46,13 @@ GitHub wikis can be branched and merged
  not supported by web interface
 
 
+Smeagol
+https://github.com/benbjohnson/smeagol
+```
+$ sudo gem install smeagol
+```
+Optional sudo
+
 
 Sources:
 
