@@ -5,16 +5,16 @@ Clone Wiki repository
 
 
 ```
-$ git clone git@github.com:mchelen/michaelchelennet.wiki.git
+git clone git@github.com:mchelen/michaelchelennet.wiki.git
 
 ```
 
 ```
-$ git clone git://github.com/mchelen/michaelchelennet.wiki.git
+git clone git://github.com/mchelen/michaelchelennet.wiki.git
 ```
 
 ```
-$ gem install gollum
+gem install gollum
 ```
 
 enable universe repository
@@ -49,7 +49,7 @@ GitHub wikis can be branched and merged
 Smeagol
 https://github.com/benbjohnson/smeagol
 ```
-$ sudo gem install smeagol
+sudo gem install smeagol
 ```
 Optional sudo
 
