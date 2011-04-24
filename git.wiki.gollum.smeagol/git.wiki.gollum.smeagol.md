@@ -3,6 +3,8 @@ Git is a revision control system. Gollum is a webserver to work with the reposit
 
 ## Clone Wiki repository
 
+Optional sudo gem install system-wide
+
 
 ```
 git clone git@github.com:mchelen/michaelchelennet.wiki.git
@@ -17,13 +19,13 @@ git clone git://github.com/mchelen/michaelchelennet.wiki.git
 
 
 ```
-gem install gollum
+sudo gem install gollum
 ```
 
 enable universe repository
 
 ```
-vi /etc/apt/sources.list
+sudo vi /etc/apt/sources.list
 ```
 
 ```
@@ -37,7 +39,6 @@ sudo apt-get install ruby rubygems ruby-dev libxml2-dev libxslt-dev
 ```
 sudo gem install gollum --no-ri --no-rdoc
 ```
-Optional sudo
 
 
 Markdown support
@@ -50,23 +51,39 @@ Syntax highlighting
 sudo apt-get install python-pygments
 ```
 
-# Update your PATH
+## Update your PATH
 echo "export PATH=$PATH:/var/lib/gems/1.8/bin" >> ~/.bashrc
 
-# Load your updated .bashrc
+## Load your updated .bashrc
 source ~/.bashrc
 
 
-# GitHub wikis can be branched and merged
+
+
+## Start Gollum
+Change to the directory with the Git repo and start repo.
+```
+cd michaelchelennet.wiki
+gollum
+```
+
+## GitHub wikis can be branched and merged
  - Not supported by web interface
 
-# Install Smeagol
+
+
+
+
+
+## Install Smeagol
 Smeagol
 https://github.com/benbjohnson/smeagol
 ```
 sudo gem install smeagol
 ```
-Optional sudo
+
+Smeagol supports multiple repositories
+
 
 ## Why Markdown?
 Markdown is easier to read and write than HTML
