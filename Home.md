@@ -1,4 +1,4 @@
 Welcome to the michaelchelennet wiki!
-# Pages
+## Pages
 * [[android.connectbot.ssh.key.auth.howto]]
 * [[git.wiki.gollum.smeagol]]
