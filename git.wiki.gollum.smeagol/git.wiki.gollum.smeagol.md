@@ -1,57 +1,44 @@
 # Git Wiki Gollum Smeagol
 Git is a revision control system. Gollum is a webserver to work with the repository locally. Smeagol is webserver to publically display the repository pages.
 
-## Clone Wiki repository
-
-Optional sudo gem install system-wide
 
 
-```
-git clone git@github.com:mchelen/michaelchelennet.wiki.git
-
-```
-
-```
-git clone git://github.com/mchelen/michaelchelennet.wiki.git
-```
-
-## Install Gollum
+Gem install sudo is optional for system-wide install.
 
 
-```
-sudo gem install gollum
-```
+```bash
+#!/bin/bash
 
-enable universe repository
+## Prerequisites
 
-```
+### enable universe repository
+
 sudo vi /etc/apt/sources.list
-```
 
-```
 sudo apt-get update
-```
 
-```
+### install dependencies
 sudo apt-get install ruby rubygems ruby-dev libxml2-dev libxslt-dev
-```
-
-```
-sudo gem install gollum --no-ri --no-rdoc
-```
 
 
-Markdown support
-```
+## Install Gollum or Smeagol
+### smeagol is selected by default
+
+# sudo gem install gollum --no-ri --no-rdoc
+
+sudo gem install smeagol --no-ri --no-rdoc
+
+
+### Markdown support
+
 sudo gem install rdiscount
-```
 
-Syntax highlighting
-```
+
+### Syntax highlighting
+
 sudo apt-get install python-pygments
-```
 
-## Update your PATH
+## Update PATH
 echo "export PATH=$PATH:/var/lib/gems/1.8/bin" >> ~/.bashrc
 
 ## Load your updated .bashrc
@@ -59,13 +46,21 @@ source ~/.bashrc
 
 
 
+## Clone Wiki repository
+### Public Git URL
+git clone git://github.com/mchelen/michaelchelennet.wiki.git
+
+
 
 ## Start Gollum
-Change to the directory with the Git repo and start repo.
-```
+### Change to the directory with the Git repo and start repo.
 cd michaelchelennet.wiki
 gollum
+
 ```
+
+
+
 
 ## GitHub wikis can be branched and merged
  - Not supported by web interface
