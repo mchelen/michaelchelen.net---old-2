@@ -6,57 +6,53 @@ Git is a revision control system. Gollum is a webserver to work with the reposit
 Gem install sudo is optional for system-wide install.
 
 
-```bash
-#!/bin/bash
-
 ## Prerequisites
-
 ### enable universe repository
-
-sudo vi /etc/apt/sources.list
-
-sudo apt-get update
-
+```bash
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo sed -i -e "s/# deb/deb/g" /etc/apt/sources.list
+```
 ### install dependencies
-sudo apt-get install ruby rubygems ruby-dev libxml2-dev libxslt-dev
+```bash
+sudo apt-get update
+sudo apt-get -y install ruby rubygems ruby-dev libxml2-dev libxslt-dev
+```
 
-
-## Install Gollum or Smeagol
-### smeagol is selected by default
-
-# sudo gem install gollum --no-ri --no-rdoc
+## Install Gollum and/or Smeagol
+```bash
+sudo gem install gollum --no-ri --no-rdoc
 
 sudo gem install smeagol --no-ri --no-rdoc
-
+```
 
 ### Markdown support
-
+```bash
 sudo gem install rdiscount
-
+```
 
 ### Syntax highlighting
-
+```bash
 sudo apt-get install python-pygments
+```
 
-## Update PATH
+## Update PATH and reload .bashrc
+```bash
 echo "export PATH=$PATH:/var/lib/gems/1.8/bin" >> ~/.bashrc
-
-## Load your updated .bashrc
 source ~/.bashrc
-
-
+```
 
 ## Clone Wiki repository
 ### Public Git URL
+```bash
 git clone git://github.com/mchelen/michaelchelennet.wiki.git
-
+```
 
 
 ## Start Gollum
 ### Change to the directory with the Git repo and start repo.
+```bash
 cd michaelchelennet.wiki
 gollum
-
 ```
 
 
