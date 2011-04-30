@@ -27,7 +27,7 @@ sudo gem install smeagol --no-ri --no-rdoc
 
 ### Markdown support
 ```bash
-sudo gem install rdiscount
+sudo gem install rdiscount --no-ri --no-rdoc
 ```
 
 ### Syntax highlighting
