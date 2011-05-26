@@ -1,4 +1,7 @@
-# Git Wiki Gollum Smeagol
+Title: Git Wiki with Gollum and Smeagol1
+Author: Mike Chelen
+Date: Thu Apr 26 2011 11:07:42 GMT-0800 (PST)
+
 Git is a revision control system. Gollum is a webserver to work with the repository locally. Smeagol is webserver to publically display the repository pages.
 
 
