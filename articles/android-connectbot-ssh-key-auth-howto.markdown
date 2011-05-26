@@ -1,6 +1,6 @@
 Title: Android SSH Key Auth with ConnectBot
 Author: Mike Chelen
-Date: Thu Apr 26 2011 11:07:42 GMT-0800 (PST)
+Date: 12/07/2010
 Categories: android, ssh, connectbot
 
 
